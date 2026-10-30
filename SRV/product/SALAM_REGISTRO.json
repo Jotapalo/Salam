@@ -1,0 +1,40 @@
+[
+  {
+    "ITEM": {
+      "DATA": {
+        "nombre_vendedor": "jp",
+        "fecha": "15/06/2025 17:09:51"
+      },
+      "ITEMS": [
+        {
+          "nombre": "plato 26cm x20und",
+          "unidades": "1",
+          "precio": "8000",
+          "subtotal": "8000"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM": {
+      "DATA": {
+        "nombre_vendedor": "jp",
+        "fecha": "17/06/2025 17:43:57"
+      },
+      "ITEMS": [
+        {
+          "nombre": "j1 und",
+          "unidades": "2",
+          "precio": "500",
+          "subtotal": "1000"
+        },
+        {
+          "nombre": "c1 und",
+          "unidades": "1",
+          "precio": "300",
+          "subtotal": "300"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,242 @@
+[
+  {
+    "ITEM2": {
+      "DATA": {
+        "nombre_vendedor": "jp",
+        "fecha": "25/05/2025 02:44:25"
+      },
+      "ITEMS": [
+        {
+          "nombre": "vasos 6 onz",
+          "unidades": "1",
+          "precio": "6000",
+          "subtotal": "6000"
+        },
+        {
+          "nombre": "servilletas naturales",
+          "unidades": "2",
+          "precio": "6000",
+          "subtotal": "12000"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM3": {
+      "DATA": {
+        "nombre_vendedor": "jotapalo",
+        "fecha": "25/05/2025 02:45:18"
+      },
+      "ITEMS": [
+        {
+          "nombre": "vasos 6 onz",
+          "unidades": "1",
+          "precio": "6000",
+          "subtotal": "6000"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM": {
+      "DATA": {
+        "nombre_vendedor": "jp",
+        "fecha": "25/05/2025 02:46:54"
+      },
+      "ITEMS": [
+        {
+          "nombre": "vasos 6 onz",
+          "unidades": "1",
+          "precio": "6000",
+          "subtotal": "6000"
+        },
+        {
+          "nombre": "cucharas gr. x100 und",
+          "unidades": "1",
+          "precio": "7000",
+          "subtotal": "7000"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM": {
+      "DATA": {
+        "nombre_vendedor": "jp",
+        "fecha": "25/05/2025 02:47:20"
+      },
+      "ITEMS": [
+        {
+          "nombre": "copas 2 onz",
+          "unidades": "14",
+          "precio": "7500",
+          "subtotal": "105000"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM": {
+      "DATA": {
+        "nombre_vendedor": "DEFAULT",
+        "fecha": "25/05/2025 08:49:12"
+      },
+      "ITEMS": [
+        {
+          "nombre": "vasos 6 onz",
+          "unidades": "1",
+          "precio": "6000",
+          "subtotal": "6000"
+        },
+        {
+          "nombre": "cucharas gr. x100 und",
+          "unidades": "1",
+          "precio": "7000",
+          "subtotal": "7000"
+        },
+        {
+          "nombre": "copas 2 onz",
+          "unidades": "1",
+          "precio": "7500",
+          "subtotal": "7500"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM": {
+      "DATA": {
+        "nombre_vendedor": "jotapalo",
+        "fecha": "26/05/2025 15:20:57"
+      },
+      "ITEMS": [
+        {
+          "nombre": "vasos 6 onz",
+          "unidades": "1",
+          "precio": "6000",
+          "subtotal": "6000"
+        },
+        {
+          "nombre": "copas 2 onz",
+          "unidades": "1",
+          "precio": "7500",
+          "subtotal": "7500"
+        },
+        {
+          "nombre": "servilletas naturales",
+          "unidades": "1",
+          "precio": "6000",
+          "subtotal": "6000"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM": {
+      "DATA": {
+        "nombre_vendedor": "jp",
+        "fecha": "27/05/2025 16:03:13"
+      },
+      "ITEMS": [
+        {
+          "nombre": "vasos 6 onz",
+          "unidades": "1",
+          "precio": "6000",
+          "subtotal": "6000"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM": {
+      "DATA": {
+        "nombre_vendedor": "jp",
+        "fecha": "29/05/2025 10:54:06"
+      },
+      "ITEMS": [
+        {
+          "nombre": "vasos 6 onz",
+          "unidades": "1",
+          "precio": "8000",
+          "subtotal": "8000"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM": {
+      "DATA": {
+        "nombre_vendedor": "jp",
+        "fecha": "17/06/2025 17:43:05"
+      },
+      "ITEMS": [
+        {
+          "nombre": "j1 und",
+          "unidades": "2",
+          "precio": "500",
+          "subtotal": "1000"
+        },
+        {
+          "nombre": "c1 und",
+          "unidades": "1",
+          "precio": "300",
+          "subtotal": "300"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM": {
+      "DATA": {
+        "nombre_vendedor": "DEFAULT",
+        "fecha": "23/06/2025 12:25:51"
+      },
+      "ITEMS": [
+        {
+          "nombre": "vasos 6 onz",
+          "unidades": "1",
+          "precio": "6000",
+          "subtotal": "6000"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM": {
+      "DATA": {
+        "nombre_vendedor": "DEFAULT",
+        "fecha": "23/06/2025 12:34:04"
+      },
+      "ITEMS": [
+        {
+          "nombre": "platos 15.5",
+          "unidades": "2",
+          "precio": "3400",
+          "subtotal": "6800"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM": {
+      "DATA": {
+        "nombre_vendedor": "DEFAULT",
+        "fecha": "23/06/2025 14:36:42"
+      },
+      "ITEMS": [
+        {
+          "nombre": "vasos 5onz",
+          "unidades": "1",
+          "precio": "3500",
+          "subtotal": "3500"
+        },
+        {
+          "nombre": "platos 15.5cm",
+          "unidades": "1",
+          "precio": "4500",
+          "subtotal": "4500"
+        }
+      ]
+    }
+  }
+]

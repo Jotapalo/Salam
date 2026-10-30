@@ -1,0 +1,62 @@
+﻿# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos generados durante la compilación
+[Bb]in/
+[Oo]bj/
+Debug/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+artifacts/
+
+# Paquetes NuGet restaurables
+packages/
+*.nupkg
+*.snupkg
+
+# Resultados de pruebas y cobertura
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+# Herramientas de análisis y extensiones
+_ReSharper*/
+*.[Rr]e[Ss]harper
+.idea/
+*.DotSettings.user
+
+# Publicación local
+publish/
+*.pubxml.user
+
+# Logs y archivos temporales
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache
+*.pidb
+*.pdb
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Variables de entorno y secretos locales
+.env
+.env.*
+!.env.example
+secrets.json
+appsettings.*.local.json

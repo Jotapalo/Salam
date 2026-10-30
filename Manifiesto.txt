@@ -1,0 +1,36 @@
+Objetivo general, crear un programa que ayude al registro de movimientos de productos
+
+para lograr esto se debe crear una interfaz con varias capacidades: 
+1. permitir regitrar una entrada de proveedor, es decir, recibir mercancia y sus especificaciones
+- Registrar estos datos en archivos JSON donde sera por meses (ej: marzo2025.json) y se va a manejar una estructura padre que contendra objetos donde la estructura sera la siguiente:
+  (objeto padre)
+  - Fecha y hora del registro/ingreso
+  (objetos siguientes)
+	  - Nombre del producto
+	  - Cantidad de unidades
+	  - Costo
+	  - Proveedor (opcional)
+	  - Descripcion (opcional)
+- Este es solo el sistema de registro, luego de validar que toda la informacion es correcta, se deben hacer los respectivos cambios a la base de datos de inventario
+- Para efectuar el cambio en la base de datos de inventario, se debe procesar la informacion, para ingresarla adecuadamente
+2. un sistema de inventario donde se pueda ver el stock de productos, y que permita agregar, eliminar o modificar productos
+3. un sistema que registre las ventas de productos en forma de recibo, con el formato de SALAM 1.0
+
+
+TICKETS: 
+
+17/06/2025
+1. Crear ventana inicio de sesion, con campos de usuario y contraseña, y un boton de inicio de sesion.
+
+2. Corregir que no se pueda agregar un registro vacio desde la ventana Form_SREM_OP_add
+-- pendiente crear el enlace al crear el registro, simultaneamente modificar la base de datos de inventario.
+
+3. Crear ventana de administracion de inventario
+
+4. Migrar SALAM1.0 a la nueva version del programa, y agregar el sistema de recibos de venta.
+
+5. Agregar boton de añadir item al administrador de inventario para hacerlo mas dinamico
+
+6. agregar funcionalidad visual para las casillas del agregar, ademas de permitir un formato de tipo <numero de unidades>*<precio unitario de la factura> para facilitar.
+
+7. Corregir el autocompletado y agregar una ventana emergente para agregar productos desde el inventario a FORM_SRV, para dinamizar la busqueda

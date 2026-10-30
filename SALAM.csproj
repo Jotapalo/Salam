@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.5.1\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.5.1\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B6E5735-3BEC-4E3C-B72C-C81593983E99}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SALAM</RootNamespace>
+    <AssemblyName>SALAM</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\jota palo\Desktop\SALAM_2\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A2D103C829598C468B887102DBE5FE7F915F9D6E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>SALAM_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.5.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Configuration.ConfigurationBuilders.Base, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Configuration.ConfigurationBuilders.Base.3.0.0\lib\Net471\Microsoft.Configuration.ConfigurationBuilders.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Configuration.ConfigurationBuilders.UserSecrets, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.3.0.0\lib\Net471\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.119.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.119.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.EF6.1.0.119.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.119.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.Linq.1.0.119.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form_home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_home.Designer.cs">
+      <DependentUpon>Form_home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_login.Designer.cs">
+      <DependentUpon>Form_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SAI\Form_SAI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SAI\Form_SAI.Designer.cs">
+      <DependentUpon>Form_SAI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SAI\Form_SAI_OP_add_item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SAI\Form_SAI_OP_add_item.Designer.cs">
+      <DependentUpon>Form_SAI_OP_add_item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SREM\Form_SREM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SREM\Form_SREM.Designer.cs">
+      <DependentUpon>Form_SREM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SREM\Form_SREM_OP_add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SREM\Form_SREM_OP_add.Designer.cs">
+      <DependentUpon>Form_SREM_OP_add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SRV\database_util.cs" />
+    <Compile Include="SRV\Form_SRV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SRV\Form_SRV.Designer.cs">
+      <DependentUpon>Form_SRV.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SRV\Form_SRV_OP_database.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SRV\Form_SRV_OP_database.Designer.cs">
+      <DependentUpon>Form_SRV_OP_database.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SRV\Form_SRV_OP_console.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SRV\Form_SRV_OP_console.Designer.cs">
+      <DependentUpon>Form_SRV_OP_console.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SRV\Form_settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SRV\Form_settings.Designer.cs">
+      <DependentUpon>Form_settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="utils\Item_inventory.cs" />
+    <Compile Include="utils\PathManager.cs" />
+    <Compile Include="utils\Usuario.cs" />
+    <Compile Include="utils\database_utils.cs" />
+    <Compile Include="utils\FileListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Form_home.resx">
+      <DependentUpon>Form_home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_login.resx">
+      <DependentUpon>Form_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAI\Form_SAI.resx">
+      <DependentUpon>Form_SAI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SAI\Form_SAI_OP_add_item.resx">
+      <DependentUpon>Form_SAI_OP_add_item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SREM\Form_SREM.resx">
+      <DependentUpon>Form_SREM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SREM\Form_SREM_OP_add.resx">
+      <DependentUpon>Form_SREM_OP_add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SRV\Form_SRV.resx">
+      <DependentUpon>Form_SRV.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SRV\Form_SRV_OP_database.resx">
+      <DependentUpon>Form_SRV_OP_database.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SRV\Form_SRV_OP_console.resx">
+      <DependentUpon>Form_SRV_OP_console.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SRV\Form_settings.resx">
+      <DependentUpon>Form_settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="databases\users.db" />
+    <None Include="databases\inventory.db" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="registro_SAI\REGISTRO.json" />
+    <None Include="registro_SREM\junio2025.json" />
+    <None Include="SALAM_TemporaryKey.pfx" />
+    <None Include="SRV\clone\database.db" />
+    <None Include="SRV\clone\DB_usuarios.db" />
+    <None Include="SRV\clone\REGISTRO.json" />
+    <None Include="SRV\product\SALAM_database.db" />
+    <None Include="SRV\product\SALAM_DB_usuarios.db" />
+    <None Include="SRV\product\SALAM_REGISTRO.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\ajuste.png" />
+    <Content Include="assets\cuenta.png" />
+    <Content Include="assets\image.ico" />
+    <Content Include="assets\no-visible.png" />
+    <Content Include="assets\ventana-de-terminal-vacia.ico" />
+    <Content Include="assets\ventana-de-terminal-vacia.png" />
+    <Content Include="assets\visible.png" />
+    <Content Include="registro_SAI\REGISTRO.txt" />
+    <Content Include="SRV\clone\db_admin.py" />
+    <Content Include="SRV\clone\img_user.jpg" />
+    <Content Include="SRV\clone\REGISTRO.txt" />
+    <Content Include="SRV\product\SALAM_REGISTRO.txt" />
+    <None Include="assets\marca.png" />
+    <None Include="assets\flecha-derecha.png" />
+    <None Include="assets\busqueda.png" />
+    <Content Include="Manifiesto.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.5.1\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.5.1\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.5.1\build\EntityFramework.targets')" />
+  <Import Project="packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.119.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>

@@ -1,0 +1,101 @@
+[
+  {
+    "ITEM": {
+      "DATA": {
+        "fecha": "25/06/2025 15:49:28"
+      },
+      "ITEMS": [
+        {
+          "nombre": "THERMO REF25FC097",
+          "costo": "22000",
+          "cantidad": "2",
+          "proveedor": "20000",
+          "descripcion": "Panda"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM": {
+      "DATA": {
+        "fecha": "25/06/2025 16:27:56"
+      },
+      "ITEMS": [
+        {
+          "nombre": "DISPENSADOR REF24FC057",
+          "costo": "7200",
+          "cantidad": "4",
+          "proveedor": "5000",
+          "descripcion": "Panda"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM": {
+      "DATA": {
+        "fecha": "25/06/2025 16:33:18"
+      },
+      "ITEMS": [
+        {
+          "nombre": "BILLETERA REF23FC156",
+          "costo": "25500",
+          "cantidad": "3",
+          "proveedor": "7000",
+          "descripcion": "Panda"
+        }
+      ]
+    }
+  },
+  {
+    "ITEM": {
+      "DATA": {
+        "fecha": "25/06/2025 16:56:33"
+      },
+      "ITEMS": [
+        {
+          "nombre": "COSMETIQUERA REF23FC065",
+          "costo": "24000",
+          "cantidad": "2",
+          "proveedor": "22000",
+          "descripcion": "Panda"
+        },
+        {
+          "nombre": "LAPICERO REF17FC140",
+          "costo": "7500",
+          "cantidad": "3",
+          "proveedor": "5000",
+          "descripcion": "Panda"
+        },
+        {
+          "nombre": "LAPIZ REF25FC170",
+          "costo": "5000",
+          "cantidad": "12",
+          "proveedor": "1000",
+          "descripcion": "Panda"
+        },
+        {
+          "nombre": "LLAVERO REF25FC114",
+          "costo": "18000",
+          "cantidad": "12",
+          "proveedor": "5000",
+          "descripcion": "Panda"
+        },
+        {
+          "nombre": "MONEDERO REF25FC033",
+          "costo": "18000",
+          "cantidad": "3",
+          "proveedor": "12000",
+          "descripcion": "Panda"
+        },
+        {
+          "nombre": "MONEDERO REF25FC034",
+          "costo": "6000",
+          "cantidad": "1",
+          "proveedor": "12000",
+          "descripcion": "Panda"
+        }
+      ]
+    }
+  }
+]
